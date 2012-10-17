@@ -1,0 +1,8 @@
+# robotstxt.org/
+# This file is useful here if you use the static folder as a subdomain
+
+User-agent: *
+
+# Uncoment the following lines to disallow static assets, but allow images
+# Disallow: /assets/
+# Allow: /assets/img/

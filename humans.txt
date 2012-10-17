@@ -1,0 +1,16 @@
+# humanstxt.org/
+
+/* TEAM */
+
+    Developer: <name>
+    Site: <url>
+    Twitter: @<nickname>
+    From: <state>, <country>
+
+
+/* SITE */
+
+    Doctype: HTML5
+    Technologies: HTML5, CSS3, JavaScript
+    Components: Bootstrap Boilerplate
+    Software: NetBeans, Sublime Text
