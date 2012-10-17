@@ -1,9 +1,13 @@
-# Bootstrap Boilerplate
+# Bootstrap CMS
 
-A professional front-end template for building fast, robust, and adaptable web
-apps or sites with Twitter Bootstrap, Font Awesome Xtra and HTML5 Boilerplate.
+A professional backend template for building fast, robust, and adaptable web backends/CMS
+or sites with [Bootstrap Boilerplate](https://github.com/xaguilars/bootstrap-boilerplate), 
+jQuery DataTables, LessCSS, MustacheJS, Select2, Wysihtml5 and more.
 
-This fork is based on [HTML5 Boilerplate](http://html5boilerplate.com)
+## REQUIREMENTS
 
-* Source: [https://github.com/xaguilars/bootstrap-boilerplate](https://github.com/xaguilars/bootstrap-boilerplate)
-* Original documentation: [https://github.com/h5bp/html5-boilerplate/tree/master/doc](https://github.com/h5bp/html5-boilerplate/tree/master/doc)
+* PHP 5.0+
+* Apache 2.2 with Include and Rewrite modules
+
+## Screenshot
+![screenshot.png](https://raw.github.com/xaguilars/bootstrap-cms/master/screenshot.png)

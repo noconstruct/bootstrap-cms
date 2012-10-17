@@ -1,0 +1,119 @@
+/* sticky footer layout based on http://www.cssstickyfooter.com/style.css */
+
+.sf-layout, .sf-layout .sf-body{
+    height: 100%;
+    margin:0 !important;
+}
+
+/*Opera Fix*/
+.sf-layout .sf-body:before{ /* thanks to Maleika (Kohoutec)*/
+    content:"";
+    height:100%;
+    float:left;
+    width:0;
+    margin-top:-32767px;/* thank you Erik J - negate effect of float*/
+}
+
+.sf-layout .sf-wrap{
+    min-height: 100%;
+}
+
+/* IE 8 and 9 fix */
+.sf-layout.ie8 .sf-wrap,
+.sf-layout.ie9 .sf-wrap{
+    display:table;
+    height: 100%;
+}
+
+.sf-layout .sf-wrap .sf-subwrap{
+    padding-bottom: 100px;  /* must be same height as the footer */
+}
+
+.sf-layout .sf-footer{
+    position: relative;
+    margin-top: -100px; /* negative value of footer height */
+    height: 100px;
+    clear:both;
+}
+
+/*
+.container{
+    width:100%;
+    padding:0 20px;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+    
+}*/
+
+/* DETAIL headers */
+
+.toolbar, .toolbar.flat{
+    background:#f5f5f5;
+    padding:20px 0;
+    border-bottom:1px solid #DDD;
+}
+
+.toolbar.flat{
+    padding:0;
+}
+
+.toolbar .nav{
+    margin:0;
+}
+
+.toolbar .nav-pills > li > a{
+    margin-top:0;
+    margin-bottom:0;
+    color:lighten(@secondaryColor, 5%);
+    padding:12px 18px;
+    border-radius:0;
+}
+
+.toolbar .nav-pills{
+    margin-left:-18px;
+}
+
+.toolbar .nav-pills > li > a:hover{
+    background-color:#e6e6e6;
+}
+
+.toolbar .nav-pills > .active > a{
+    background-color:transparent;
+    font-weight:bold;
+    color:lighten(@secondaryColor, 5%);
+}
+
+.toolbar .nav-pills > .active > a::before, .toolbar .nav-pills > .active > a::after {
+    border: 8px solid transparent;
+    border-style: outset outset solid outset;
+    border-bottom-color: #DDD;
+    bottom: 1px;
+    content: "";
+    height: 0;
+    left: 50%;
+    margin-left: -8px;
+    overflow: hidden;
+    position: absolute;
+    width: 0;
+    bottom: 0px;
+}
+
+.toolbar .nav-pills > .active > a::after {
+    background: transparent;
+    border-bottom-color: white;
+    bottom: -2px;
+}
+
+
+.toolbar h1{
+    color:@secondaryColor;
+}
+
+
+.view{
+    background:#fff;
+    padding:30px 0;
+}

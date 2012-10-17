@@ -1,7 +1,4 @@
 # robotstxt.org/
 
 User-agent: *
-
-# Uncoment the following lines to disallow static assets, but allow images
-# Disallow: /static/assets/
-# Allow: /static/assets/img/
+Disallow: /

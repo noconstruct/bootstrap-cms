@@ -1,9 +1,6 @@
-<?php 
-
-/*
- *  This is a simple wrapper file for the .htaccess Rewrite engine
- */
-
-include "index.html";
-
+<?php
+include "includes/init.php";
+include "includes/head.php";
+include "includes/home.php";
+include "includes/foot.php";
 ?>

@@ -1,14 +1,15 @@
-<!--#include file="vendor/bootstrap.min.css" -->
+*{
+    position:relative;
+}
+
+html, body{
+    position:static;
+}
+
+<!--#include file="vendor/bootstrap.css" -->
 <!--#include file="vendor/bootstrap-responsive.min.css" -->
 <!--#include file="vendor/font-awesome.css" -->
 <!--#include file="vendor/fontello.css" -->
-
-@media (min-width: 979px) {
-    body {
-        padding-top: 60px;
-        padding-bottom: 40px;
-    }
-}
 
 /* ==========================================================================
    Chrome Frame prompt
@@ -26,6 +27,3 @@
 .browsehappy a{
     color: blue;
 }
-
-<!--#include file="main.css" -->
-<!--#include file="vendor/helper.css" -->

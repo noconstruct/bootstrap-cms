@@ -1,0 +1,54 @@
+.sf-layout .sf-footer{
+    height: 99px; /*99 + 1px border = 100*/
+    border-top:1px solid #DDD;
+    background:whiteSmoke;
+}
+
+.sf-footer > section{
+    padding:20px 0;
+}
+
+@media (min-width: 979px) {
+    #header {
+        padding-top: 39px;
+    }
+}
+
+@media (max-width: 767px) {
+    #header {
+        padding-top: 0px;
+    }
+}
+#footer{
+    font-size:12px;
+}
+#footer nav a{
+    display:inline-block;
+}
+#footer nav a:after{
+    content:"·";
+    margin:0 10px;
+    display:inline-block;
+}
+
+#footer nav a:last-child:after{
+    content:"";
+    margin:0;
+}
+#footer .brand{
+    font-size:20px;
+    margin-top:15px;
+    font-weight:bold;
+    text-shadow:1px 1px rgba(255,255,255,0.9);
+    color:#ddd;
+}
+
+#main-menu{
+    margin-bottom:0;
+}
+#main-menu .brand{
+    font-weight:bold;
+}
+.view{
+    color:#111;
+}

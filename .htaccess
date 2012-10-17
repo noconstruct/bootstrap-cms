@@ -108,6 +108,7 @@ ErrorDocument 503 '<html><head></head><body><h1>503 Service Unavailable</h1></bo
 AddType application/javascript         js jsonp
 AddType application/json               json
 AddType text/typescript                ts
+AddType text/less                      less
 
 # Audio
 AddType audio/ogg                      oga ogg
@@ -174,6 +175,12 @@ AddType text/vtt                            vtt
 <FilesMatch "\.combined\.css$">
   Options +Includes
   AddOutputFilterByType INCLUDES text/css
+  SetOutputFilter INCLUDES
+</FilesMatch>
+
+<FilesMatch "\.combined\.less$">
+  Options +Includes
+  AddOutputFilterByType INCLUDES text/less
   SetOutputFilter INCLUDES
 </FilesMatch>
 
